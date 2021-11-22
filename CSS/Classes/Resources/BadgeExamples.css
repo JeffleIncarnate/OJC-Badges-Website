@@ -1,9 +1,11 @@
 /* ----HTML---- */
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap");
+
 body,
 html {
   height: 100%;
   margin: 0;
-  font-family: "Chivo", sans-serif;
+  font-family: "Raleway", sans-serif;
   background-color: var(--white);
   color: var(--grey);
 }
@@ -160,8 +162,8 @@ header {
   display: flex;
   height: 100%;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
+  margin-left: 50px;
 }
 
 .overlay a {
@@ -180,7 +182,41 @@ header {
   top: 20px;
   right: 45px;
   font-size: 60px;
-  color: #edf0f1;
+  color: var(--white);
+}
+
+.dropdown-btn {
+  padding: 15px;
+  text-decoration: none;
+  font-size: 36px;
+  color: var(--white);
+  display: block;
+  border: none;
+  background: none;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+  transition: all 0.3s ease 0s;
+  display: flex;
+}
+
+.dropdown-btn:hover {
+  color: var(--orange);
+}
+
+.active {
+  color: var(--white);
+}
+
+.dropdown-container {
+  display: none;
+}
+
+.dropdown-container a {
+  font-size: 20px;
+  text-align: left;
+  margin-left: 50px;
 }
 
 /* ----Splash Page---- */
