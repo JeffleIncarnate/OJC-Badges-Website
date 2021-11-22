@@ -186,7 +186,7 @@ header {
 /* ----Splash Page---- */
 .splashPage {
   background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)),
-    url("../../../Images/Backgrounds/colin-lloyd-PS9eBTGbg70-unsplash.jpg");
+    url("../../../Images/Backgrounds/jens-johnsson-qFYBki6u3Ik-unsplash.jpg");
   height: 70%;
   background-position: center;
   background-repeat: no-repeat;
@@ -228,26 +228,8 @@ header {
   -ms-animation: comeUp 5s;
 }
 
-/* ----Choose Badges---- */
-.number1,
-.number2 {
-  padding: 20px;
-  text-align: center;
-  height: 700px;
-  width: 60%;
-  margin: 2% auto 2% auto;
-}
-
-.number2 {
-  height: 800px;
-}
-
-.number3 {
-  height: 300px;
-}
-
-.number1 a,
-.number2 a {
+/* ----All H2's---- */
+.whyBadges a {
   font-size: 80px;
   font-weight: 600;
   cursor: text;
@@ -258,13 +240,13 @@ header {
   padding: 1px;
 }
 
-.number1 a:hover,
-.number2 a:hover {
+/* ----H2 Transitions---- */
+.whyBadges a:hover {
   color: var(--orange);
 }
 
-.number1 p,
-.number2 p {
+/* ----All Paragraphs---- */
+.whyBadges p {
   font-size: 20px;
   margin-top: 3%;
   background: none;
@@ -272,69 +254,20 @@ header {
   text-align: center;
 }
 
-.number1 img,
-.number2 img {
-  width: 50%;
-  border-radius: 10px;
-  margin-top: 1.5%;
-  box-shadow: 0px 1px 10px 0 rgb(0 0 0 / 70%), 0 6px 30px 0 rgb(0 0 0 / 19%);
-  transition: transform 0.5s ease 0s;
+.whyBadges p {
+  margin-left: 5%;
+  text-align: left;
 }
 
-.number1 img:hover,
-.number2 img:hover {
-  transform: scale(1.05);
-}
-
-.number1 .number1Button,
-.number2 .number1Button {
-  font-size: 17px;
-}
-
-.button {
-  display: block;
-  border-radius: 10px;
-  background-color: var(--orange);
-  border: none;
-  color: var(--white);
-  text-align: center;
-  font-size: 20px;
-  padding: 13px;
-  width: 200px;
-  transition: all 0.5s;
-  cursor: pointer;
-  margin: 1.5% auto 1.5% auto;
-  box-shadow: 0px 1px 10px 0 rgb(0 0 0 / 70%), 0 6px 30px 0 rgb(0 0 0 / 19%);
-}
-
-.button:hover {
-  box-shadow: none;
-}
-.button span {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  transition: 0.5s;
-}
-
-.button span:after {
-  content: "\00bb";
-  position: absolute;
-  opacity: 0;
-  top: 0;
-  right: -20px;
-  transition: 0.5s;
-}
-
-.button:hover span {
-  padding-right: 25px;
-  color: var(--grey);
-}
-
-.button:hover span:after {
-  opacity: 1;
-  right: 0;
-  color: var(--grey);
+/* ----Why Badges?---- */
+.whyBadges {
+  padding: 20px;
+  display: flex;
+  height: 340px;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  margin: 2% auto 2% auto;
 }
 
 /* ----Animations---- */
