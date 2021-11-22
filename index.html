@@ -47,9 +47,20 @@
      <div class="overlay">
           <a class="close">&times;</a>
           <div class="overlay__content">
-               <a href="Pages/About.html">About</a>
-               <a href="Pages/Projects.html">Badges</a>
-               <a href="Pages/About.html">Materials</a>
+               <a href="Pages/Main/About.html">About</a>
+               <button class="dropdown-btn">Resources <i class="fa fa-caret-down"></i></button>
+               <div class="dropdown-container">
+                    <a href="Pages/Resources/All-Badges.html">All-Badges</a>
+                    <a href="Pages/Resources/BadgeExamples.html">Badge Examples</a>
+                    <a href="Pages/Resources/Materials.html">Materials</a>
+                    <a href="Pages/Resources/WhyBadges.html">Why Badges</a>
+               </div>
+               <button class="dropdown-btn">Steps <i class="fa fa-caret-down"></i></button>
+               <div class="dropdown-container">
+                    <a href="Pages/Steps/HowToPitchBadge.html">How to Pitch a Badge</a>
+                    <a href="Pages/Steps/HowToMakeABadgePitch.html">How to make a Badge Pitch</a>
+               </div>
+               <a href="Pages/Main/Contact.html">Contact</a>
           </div>
      </div>
 
@@ -161,6 +172,7 @@
      <script src="JS/mobile.js"></script>
      <script src="JS/StickyNav.js"></script>
      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+     <script src="JS/SideNavDropDown.js"></script>
      <script>
           AOS.init();
      </script>

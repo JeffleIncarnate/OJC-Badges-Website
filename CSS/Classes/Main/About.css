@@ -183,6 +183,38 @@ header {
   color: var(--white);
 }
 
+.dropdown-btn {
+  padding: 15px;
+  text-decoration: none;
+  font-size: 36px;
+  color: var(--white);
+  display: block;
+  border: none;
+  background: none;
+  width: 100%;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  transition: all 0.3s ease 0s;
+}
+
+.dropdown-btn:hover {
+  color: var(--orange);
+}
+
+.active {
+  color: var(--white);
+}
+
+.dropdown-container {
+  display: none;
+}
+
+.dropdown-container a {
+  font-size: 20px;
+  text-align: center;
+}
+
 /* ----Splash Page---- */
 .splashPage {
   background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)),

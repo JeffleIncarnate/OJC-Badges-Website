@@ -183,6 +183,38 @@ header {
   color: #edf0f1;
 }
 
+.dropdown-btn {
+  padding: 15px;
+  text-decoration: none;
+  font-size: 36px;
+  color: var(--white);
+  display: block;
+  border: none;
+  background: none;
+  width: 100%;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  transition: all 0.3s ease 0s;
+}
+
+.dropdown-btn:hover {
+  color: var(--orange);
+}
+
+.active {
+  color: var(--white);
+}
+
+.dropdown-container {
+  display: none;
+}
+
+.dropdown-container a {
+  font-size: 20px;
+  text-align: center;
+}
+
 /* ----Splash Page---- */
 .splashPage {
   background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)),
@@ -228,50 +260,6 @@ header {
   -ms-animation: comeUp 5s;
 }
 
-/* ----All H2's---- */
-.briefIntro a,
-.whyBadges a,
-.pitchBadge a,
-.levels a {
-  font-size: 80px;
-  font-weight: 600;
-  cursor: text;
-  transition: color 0.5s ease 0s;
-  color: var(--grey);
-  border-radius: 10px;
-  padding: 2%;
-  padding: 1px;
-}
-
-/* ----H2 Transitions---- */
-.pitchBadge a:hover,
-.briefIntro a:hover,
-.whyBadges a:hover,
-.levels a:hover {
-  color: var(--orange);
-}
-
-/* ----All Paragraphs---- */
-.briefIntro p,
-.whyBadges p,
-.pitchBadge p,
-.levels p {
-  font-size: 20px;
-  margin-top: 3%;
-  background: none;
-  font-weight: 400px;
-  text-align: center;
-}
-
-.whyBadges p {
-  margin-left: 5%;
-  text-align: left;
-}
-
-.levels p {
-  margin-right: 5%;
-  text-align: right;
-}
 /* ----Brief Intro---- */
 .briefIntro {
   padding: 20px;
@@ -282,11 +270,27 @@ header {
 }
 
 .briefIntro a {
+  font-size: 80px;
+  font-weight: 600;
+  cursor: text;
+  transition: color 0.5s ease 0s;
+  color: var(--grey);
+  border-radius: 10px;
+  padding: 2%;
+  padding: 1px;
   animation: comeUp 6s;
   -webkit-animation: comeUp 5s;
   -moz-animation: comeUp 5s;
   -o-animation: comeUp 5s;
   -ms-animation: comeUp 5s;
+}
+
+.briefIntro p {
+  font-size: 20px;
+  margin-top: 3%;
+  background: none;
+  font-weight: 400px;
+  text-align: center;
 }
 
 /* ----Why Badges?---- */
@@ -300,6 +304,27 @@ header {
   margin: 2% auto 2% auto;
 }
 
+.whyBadges a {
+  font-size: 80px;
+  font-weight: 600;
+  cursor: text;
+  transition: color 0.5s ease 0s;
+  color: var(--grey);
+  border-radius: 10px;
+  padding: 2%;
+  padding: 1px;
+}
+
+.whyBadges p {
+  font-size: 20px;
+  margin-top: 3%;
+  background: none;
+  font-weight: 400px;
+  text-align: center;
+  margin-left: 5%;
+  text-align: left;
+}
+
 /* ----Pitching Badges!---- */
 .pitchBadge {
   padding: 20px;
@@ -307,6 +332,25 @@ header {
   height: 340px;
   width: 60%;
   margin: 2% auto 2% auto;
+}
+
+.pitchBadge a {
+  font-size: 80px;
+  font-weight: 600;
+  cursor: text;
+  transition: color 0.5s ease 0s;
+  color: var(--grey);
+  border-radius: 10px;
+  padding: 2%;
+  padding: 1px;
+}
+
+.pitchBadge p {
+  font-size: 20px;
+  margin-top: 3%;
+  background: none;
+  font-weight: 400px;
+  text-align: center;
 }
 
 /* ----Triple E's---- */
@@ -320,6 +364,35 @@ header {
   margin: 2% auto 2% auto;
 }
 
+.levels a {
+  font-size: 80px;
+  text-align: right;
+  font-weight: 600;
+  cursor: text;
+  transition: color 0.5s ease 0s;
+  color: var(--grey);
+  border-radius: 10px;
+  padding: 2%;
+  padding: 1px;
+}
+
+.levels p {
+  font-size: 20px;
+  margin-top: 3%;
+  background: none;
+  font-weight: 400px;
+  text-align: center;
+  margin-right: 5%;
+  text-align: right;
+}
+
+/* ----H2 Hover Animations---- */
+.pitchBadge a:hover,
+.briefIntro a:hover,
+.whyBadges a:hover,
+.levels a:hover {
+  color: var(--orange);
+}
 /* ----Animations---- */
 /* -- Come Up -- */
 @keyframes comeUp {
@@ -364,52 +437,6 @@ header {
   }
   100% {
     margin-top: 0px;
-  }
-}
-
-/* -- Fade In -- */
-@keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-@-moz-keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-@-webkit-keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-@-o-keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-@-ms-keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
   }
 }
 
