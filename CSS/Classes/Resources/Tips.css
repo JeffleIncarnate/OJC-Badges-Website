@@ -265,50 +265,15 @@ header {
 }
 
 /* ----Brief Intro---- */
-.briefIntro {
+.tipsTricks {
   padding: 20px;
-  text-align: center;
-  height: 270px;
+  height: 370px;
   width: 60%;
   margin: 2% auto 2% auto;
-}
-
-.briefIntro a {
-  font-size: 80px;
-  font-weight: 600;
-  cursor: text;
-  transition: color 0.5s ease 0s;
-  color: var(--grey);
-  border-radius: 10px;
-  padding: 2%;
-  padding: 1px;
-  animation: comeUp 6s;
-  -webkit-animation: comeUp 5s;
-  -moz-animation: comeUp 5s;
-  -o-animation: comeUp 5s;
-  -ms-animation: comeUp 5s;
-}
-
-.briefIntro p {
-  font-size: 20px;
-  margin-top: 3%;
-  background: none;
-  font-weight: 400px;
   text-align: center;
 }
 
-/* ----Why Badges?---- */
-.whyBadges {
-  padding: 20px;
-  display: flex;
-  height: 340px;
-  justify-content: center;
-  align-items: center;
-  width: 70%;
-  margin: 2% auto 2% auto;
-}
-
-.whyBadges a {
+.tipsTricks a {
   font-size: 80px;
   font-weight: 600;
   cursor: text;
@@ -319,82 +284,21 @@ header {
   padding: 1px;
 }
 
-.whyBadges p {
-  font-size: 20px;
-  margin-top: 3%;
-  background: none;
-  font-weight: 400px;
-  text-align: center;
-  margin-left: 5%;
+.tipsTricks ol {
   text-align: left;
-}
-
-/* ----Pitching Badges!---- */
-.pitchBadge {
-  padding: 20px;
-  text-align: center;
-  height: 340px;
-  width: 60%;
-  margin: 2% auto 2% auto;
-}
-
-.pitchBadge a {
-  font-size: 80px;
-  font-weight: 600;
-  cursor: text;
-  transition: color 0.5s ease 0s;
-  color: var(--grey);
-  border-radius: 10px;
-  padding: 2%;
-  padding: 1px;
-}
-
-.pitchBadge p {
+  margin-left: 15%;
   font-size: 20px;
   margin-top: 3%;
   background: none;
   font-weight: 400px;
-  text-align: center;
 }
 
-/* ----Triple E's---- */
-.levels {
-  padding: 20px;
-  display: flex;
-  height: 340px;
-  justify-content: center;
-  align-items: center;
-  width: 70%;
-  margin: 2% auto 2% auto;
-}
-
-.levels a {
-  font-size: 80px;
-  text-align: right;
-  font-weight: 600;
-  cursor: text;
-  transition: color 0.5s ease 0s;
-  color: var(--grey);
-  border-radius: 10px;
-  padding: 2%;
-  padding: 1px;
-}
-
-.levels p {
-  font-size: 20px;
-  margin-top: 3%;
-  background: none;
-  font-weight: 400px;
-  text-align: center;
-  margin-right: 5%;
-  text-align: right;
+.tipsTricks ol > li {
+  margin: 1%;
 }
 
 /* ----H2 Hover Animations---- */
-.pitchBadge a:hover,
-.briefIntro a:hover,
-.whyBadges a:hover,
-.levels a:hover {
+.tipsTricks a:hover {
   color: var(--orange);
 }
 /* ----Animations---- */
