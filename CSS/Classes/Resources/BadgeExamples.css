@@ -268,7 +268,7 @@ header {
 .badgePitch1 {
   padding: 20px;
   text-align: center;
-  height: 600px;
+  height: 550px;
   width: 60%;
   margin: 2% auto 2% auto;
 }
@@ -299,8 +299,8 @@ header {
 .badgePitch1Video {
   margin-top: 2%;
   border-radius: 10px;
-  width: 50%;
-  height: 70%;
+  width: 35vw;
+  height: 30vh;
   box-shadow: 0px 1px 10px 0 rgb(0 0 0 / 70%), 0 6px 30px 0 rgb(0 0 0 / 19%);
   transition: transform 0.5s;
   margin-bottom: 3%;

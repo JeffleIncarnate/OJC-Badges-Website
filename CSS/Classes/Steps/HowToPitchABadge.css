@@ -265,8 +265,7 @@ header {
 }
 
 /* ----Choose Badges---- */
-.number1,
-.number2 {
+.number1 {
   padding: 20px;
   text-align: center;
   height: 700px;
@@ -274,16 +273,7 @@ header {
   margin: 2% auto 2% auto;
 }
 
-.number2 {
-  height: 800px;
-}
-
-.number3 {
-  height: 300px;
-}
-
-.number1 a,
-.number2 a {
+.number1 a {
   font-size: 80px;
   font-weight: 600;
   cursor: text;
@@ -294,13 +284,11 @@ header {
   padding: 1px;
 }
 
-.number1 a:hover,
-.number2 a:hover {
+.number1 a:hover {
   color: var(--orange);
 }
 
-.number1 p,
-.number2 p {
+.number1 p {
   font-size: 20px;
   margin-top: 3%;
   background: none;
@@ -308,8 +296,7 @@ header {
   text-align: center;
 }
 
-.number1 img,
-.number2 img {
+.number1 img {
   width: 50%;
   border-radius: 10px;
   margin-top: 1.5%;
@@ -317,13 +304,11 @@ header {
   transition: transform 0.5s ease 0s;
 }
 
-.number1 img:hover,
-.number2 img:hover {
+.number1 img:hover {
   transform: scale(1.05);
 }
 
-.number1 .number1Button,
-.number2 .number1Button {
+.number1 .number1Button {
   font-size: 17px;
 }
 
@@ -360,6 +345,7 @@ header {
   top: 0;
   right: -20px;
   transition: 0.5s;
+  color: var(--white);
 }
 
 .button:hover span {
