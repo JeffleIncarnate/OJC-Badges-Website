@@ -10,7 +10,7 @@ This website was built to make badges at my school easier to understand, more in
 
 Contributors names and contact info
 
-ex. [@RayatDhruv](https://twitter.com/rayatdhruv)
+Dhruv Rayat. [@RayatDhruv](https://twitter.com/rayatdhruv)
 
 ## Acknowledgments
 
@@ -19,3 +19,7 @@ Inspiration, code snippets, etc.
 - [W3 Schools](https://www.w3schools.com/)
 - [Navigation Bar](https://www.youtube.com/watch?v=PwWHL3RyQgk)
 - [Footer](https://www.youtube.com/watch?v=YOb67OKw62s&t)
+
+## Website Link
+
+[OJC Badge Website](https://dhruv-rayat1.github.io/OJC-Badges-Website/)
