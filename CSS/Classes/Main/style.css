@@ -28,6 +28,13 @@ hr {
   --orange: #0088a9;
 }
 
+::selection {
+  background: var(--grey);
+}
+::-moz-selection {
+  background: var(--grey);
+}
+
 /* ----Nav Bar---- */
 header {
   display: flex;
