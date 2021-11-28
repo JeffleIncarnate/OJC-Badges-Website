@@ -569,7 +569,7 @@ ul {
 }
 
 /* ----Responsive---- */
-@media only screen and (max-width: 1200px) {
+@media screen and (max-width: 1200px) {
   .briefIntro {
     width: 90%;
   }
@@ -587,7 +587,7 @@ ul {
   }
 }
 
-@media only screen and (max-width: 800px) {
+@media screen and (max-width: 800px) {
   .briefIntro {
     height: 300px;
   }
@@ -615,7 +615,7 @@ ul {
   }
 }
 
-@media only screen and (max-width: 765px) {
+@media screen and (max-width: 765px) {
   .briefIntro a,
   .whyBadges a,
   .pitchBadge a,
@@ -624,7 +624,7 @@ ul {
   }
 }
 
-@media only screen and (max-width: 674px) {
+@media screen and (max-width: 674px) {
   .pitchBadge {
     height: 500px;
   }
@@ -634,7 +634,7 @@ ul {
   }
 }
 
-@media only screen and (max-width: 570px) {
+@media screen and (max-width: 570px) {
   .briefIntro,
   .whyBadges,
   .pitchBadge,
@@ -643,7 +643,7 @@ ul {
   }
 }
 
-@media only screen and (max-width: 550px) {
+@media screen and (max-width: 550px) {
   .briefIntro {
     height: 370px;
   }
@@ -665,13 +665,13 @@ ul {
   }
 }
 
-@media only screen and (max-width: 500px) {
+@media screen and (max-width: 500px) {
   .pitchBadge {
     height: 590px;
   }
 }
 
-@media only screen and (max-width: 437px) {
+@media screen and (max-width: 437px) {
   .briefIntro {
     height: 500px;
   }
@@ -685,13 +685,13 @@ ul {
   }
 }
 
-@media only screen and (max-width: 442px) {
+@media screen and (max-width: 442px) {
   .splashPage div {
     text-align: center;
   }
 }
 
-@media only screen and (max-width: 379px) {
+@media screen and (max-width: 379px) {
   .briefIntro {
     height: 550px;
   }
@@ -713,7 +713,7 @@ ul {
   }
 }
 
-@media (max-width: 767px) {
+@media screen and (max-width: 767px) {
   .footer-col {
     width: 50%;
     margin-bottom: 10px;
@@ -725,7 +725,7 @@ ul {
   }
 }
 
-@media only screen and (max-width: 800px) {
+@media screen and (max-width: 800px) {
   .nav__links,
   .cta {
     display: none;
