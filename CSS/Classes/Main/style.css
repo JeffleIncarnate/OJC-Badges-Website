@@ -580,6 +580,34 @@ ul {
   }
 }
 
+@media only screen and (max-width: 800px) {
+  .briefIntro {
+    height: 300px;
+  }
+
+  .whyBadges {
+    flex-direction: column;
+    height: 370px;
+  }
+
+  .whyBadges p {
+    text-align: center;
+  }
+
+  .pitchBadge {
+    height: 370px;
+  }
+
+  .levels {
+    flex-direction: column-reverse;
+  }
+
+  .levels p {
+    text-align: center;
+    height: 500px;
+  }
+}
+
 @media (max-width: 767px) {
   .footer-col {
     width: 50%;
