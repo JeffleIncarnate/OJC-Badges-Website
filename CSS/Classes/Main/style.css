@@ -685,6 +685,12 @@ ul {
   }
 }
 
+@media only screen and (max-width: 442px) {
+  .splashPage div {
+    text-align: center;
+  }
+}
+
 @media only screen and (max-width: 379px) {
   .briefIntro {
     height: 550px;

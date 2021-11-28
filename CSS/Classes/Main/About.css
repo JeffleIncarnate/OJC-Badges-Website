@@ -28,6 +28,13 @@ hr {
   --orange: #0088a9;
 }
 
+::selection {
+  background: var(--grey);
+}
+::-moz-selection {
+  background: var(--grey);
+}
+
 /* ----Nav Bar---- */
 header {
   display: flex;
@@ -497,6 +504,84 @@ ul {
 }
 
 /* ----Responsive---- */
+@media only screen and (max-width: 1397px) {
+  .briefIntro {
+    width: 90%;
+  }
+
+  .aboutAuthor {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 932px) {
+  .briefIntro {
+    height: 370px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .aboutAuthor {
+    flex-direction: column;
+    height: 510px;
+  }
+
+  .aboutAuthor p {
+    text-align: center;
+  }
+
+  .aboutAuthor img {
+    margin-top: 3%;
+    max-width: 50%;
+  }
+}
+
+@media only screen and (max-width: 765px) {
+  .briefIntro a,
+  .aboutAuthor a {
+    font-size: 70px;
+  }
+}
+
+@media only screen and (max-width: 671px) {
+  .aboutAuthor a {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 570px) {
+  .briefIntro,
+  .aboutAuthor {
+    width: 97%;
+  }
+}
+
+@media only screen and (max-width: 442px) {
+  .splashPage div {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 433px) {
+  .briefIntro {
+    height: 520px;
+  }
+
+  .aboutAuthor img {
+    max-width: 70%;
+  }
+
+  .aboutAuthor {
+    height: 600px;
+  }
+}
+
+@media only screen and (max-width: 380px) {
+  .aboutAuthor {
+    height: 650px;
+  }
+}
+
 @media (max-width: 767px) {
   .footer-col {
     width: 50%;
