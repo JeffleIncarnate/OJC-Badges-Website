@@ -562,6 +562,24 @@ ul {
 }
 
 /* ----Responsive---- */
+@media only screen and (max-width: 1200px) {
+  .briefIntro {
+    width: 90%;
+  }
+
+  .whyBadges {
+    width: 90%;
+  }
+
+  .pitchBadge {
+    width: 90%;
+  }
+
+  .levels {
+    width: 90%;
+  }
+}
+
 @media (max-width: 767px) {
   .footer-col {
     width: 50%;
