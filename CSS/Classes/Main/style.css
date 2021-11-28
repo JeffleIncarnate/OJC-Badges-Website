@@ -587,12 +587,6 @@ ul {
   }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 900px) and (orientation: portrait) {
-  .pitchBadge {
-    background: red;
-  }
-}
-
 @media screen and (max-width: 800px) {
   .briefIntro {
     height: 300px;
