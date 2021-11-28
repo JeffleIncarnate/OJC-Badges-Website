@@ -608,10 +608,102 @@ ul {
   }
 }
 
+@media only screen and (max-width: 765px) {
+  .briefIntro a,
+  .whyBadges a,
+  .pitchBadge a,
+  .levels a {
+    font-size: 70px;
+  }
+}
+
+@media only screen and (max-width: 674px) {
+  .pitchBadge {
+    height: 500px;
+  }
+
+  .levels {
+    height: 430px;
+  }
+}
+
+@media only screen and (max-width: 570px) {
+  .briefIntro,
+  .whyBadges,
+  .pitchBadge,
+  .levels {
+    width: 97%;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .briefIntro {
+    height: 370px;
+  }
+
+  .whyBadges {
+    height: 440px;
+  }
+
+  .whyBadges a {
+    text-align: center;
+  }
+
+  .pitchBadge {
+    height: 550px;
+  }
+
+  .levels {
+    height: 550px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .pitchBadge {
+    height: 590px;
+  }
+}
+
+@media only screen and (max-width: 437px) {
+  .briefIntro {
+    height: 500px;
+  }
+
+  .whyBadges {
+    height: 500px;
+  }
+
+  .pitchBadge {
+    height: 650px;
+  }
+}
+
+@media only screen and (max-width: 379px) {
+  .briefIntro {
+    height: 550px;
+  }
+
+  .whyBadges {
+    height: 550px;
+  }
+
+  .pitchBadge {
+    height: 700px;
+  }
+
+  .levels {
+    height: 670px;
+  }
+
+  .levels a {
+    text-align: center;
+  }
+}
+
 @media (max-width: 767px) {
   .footer-col {
     width: 50%;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
   }
 }
 @media (max-width: 574px) {
