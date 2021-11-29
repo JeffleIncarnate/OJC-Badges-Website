@@ -28,6 +28,13 @@ hr {
   --orange: #0088a9;
 }
 
+::selection {
+  background: var(--grey);
+}
+::-moz-selection {
+  background: var(--grey);
+}
+
 /* ----Nav Bar---- */
 header {
   display: flex;
@@ -269,10 +276,8 @@ header {
   padding: 20px;
   text-align: center;
   height: 600px;
-  align-items: center;
-  justify-content: space-around;
   width: 70%;
-  margin: 2% auto 2% 15%;
+  margin: 2% auto 2% auto;
 }
 
 .title {
@@ -292,13 +297,14 @@ header {
 /* --Search Bar-- */
 #myInput {
   margin-top: 2%;
-  background-image: url("/css/searchicon.png");
-  background-position: 10px 12px;
+  border-radius: 10px 30px;
+  background-image: url("https://www.w3schools.com/css/searchicon.png");
+  background-position: 15px 8px;
   background-repeat: no-repeat;
   width: 100%;
   font-size: 16px;
   padding: 12px 20px 12px 40px;
-  border: 1px solid #ddd;
+  border: 2px solid var(--grey);
   margin-bottom: 12px;
 }
 
@@ -311,7 +317,7 @@ header {
 }
 
 #myUL li a {
-  border-radius: 5px;
+  border-radius: 50px 10px;
   border: 1px solid #ddd;
   margin: 0.5% 0.5% 0.5% 0.5%;
   background-color: #f6f6f6;
@@ -497,6 +503,12 @@ ul {
 }
 
 /* ----Responsive---- */
+@media screen and (max-width: 1200px) {
+  .fullBadges {
+    width: 90%;
+  }
+}
+
 @media (max-width: 767px) {
   .footer-col {
     width: 50%;
