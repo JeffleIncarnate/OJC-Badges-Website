@@ -466,6 +466,42 @@ ul {
 }
 
 /* ----Responsive---- */
+@media screen and (max-width: 1200px) {
+  .contactUs {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 765px) {
+  .contactUs a {
+    font-size: 70px;
+  }
+}
+
+@media screen and (max-width: 570px) {
+  .contactUs {
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .contactUs {
+    height: 500px;
+  }
+}
+
+@media screen and (max-width: 442px) {
+  .splashPage div {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 405px) {
+  .contactUs {
+    height: 620px;
+  }
+}
+
 @media (max-width: 767px) {
   .footer-col {
     width: 50%;
