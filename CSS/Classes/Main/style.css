@@ -624,7 +624,7 @@ ul {
   }
 }
 
-@media screen and (max-width: 674px) {
+@media screen and (max-width: 700px) {
   .pitchBadge {
     height: 500px;
   }
