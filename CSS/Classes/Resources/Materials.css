@@ -526,6 +526,85 @@ ul {
 }
 
 /* ----Responsive---- */
+@media screen and (max-width: 1200px) {
+  .fullBadges {
+    width: 90%;
+  }
+
+  .successCriteria {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 940px) {
+  .fullBadges {
+    flex-direction: column;
+    height: 550px;
+  }
+
+  .fullBadges img {
+    margin-top: 2%;
+    max-width: 50%;
+  }
+
+  .fullBadges p {
+    text-align: center;
+  }
+
+  .successCriteria {
+    flex-direction: column-reverse;
+    height: 550px;
+  }
+
+  .successCriteria img {
+    margin-top: 2%;
+    max-width: 50%;
+  }
+
+  .successCriteria p {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 765px) {
+  .title,
+  .title_two {
+    font-size: 70px;
+  }
+}
+
+@media screen and (max-width: 628px) {
+  .title,
+  .title_two {
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 570px) {
+  .fullBadges,
+  .successCriteria {
+    width: 97%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .successCriteria img,
+  .fullBadges img {
+    max-width: 70%;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .splashPage a {
+    font-size: 80px;
+  }
+}
+
+@media only screen and (max-width: 442px) {
+  .splashPage div {
+    text-align: center;
+  }
+}
+
 @media (max-width: 767px) {
   .footer-col {
     width: 50%;

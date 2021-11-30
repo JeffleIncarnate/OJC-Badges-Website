@@ -553,7 +553,7 @@ ul {
   }
 }
 
-@media only screen and (max-width: 442px) {
+@media only screen and (max-width: 513px) {
   .splashPage div {
     text-align: center;
   }
