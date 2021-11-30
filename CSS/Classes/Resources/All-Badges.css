@@ -509,6 +509,38 @@ ul {
   }
 }
 
+@media screen and (max-width: 789px) {
+  #myUL {
+    grid-template-columns: repeat(2, 2fr);
+  }
+
+  .fullBadges {
+    height: 720px;
+  }
+}
+
+@media only screen and (max-width: 765px) {
+  .fullBadges a {
+    font-size: 70px;
+  }
+}
+
+@media only screen and (max-width: 570px) {
+  .fullBadges {
+    width: 97%;
+  }
+}
+
+@media only screen and (max-width: 503px) {
+  #myUL {
+    grid-template-columns: repeat(1, 2fr);
+  }
+
+  .fullBadges {
+    height: 1300px;
+  }
+}
+
 @media (max-width: 767px) {
   .footer-col {
     width: 50%;
@@ -518,6 +550,12 @@ ul {
 @media (max-width: 574px) {
   .footer-col {
     width: 100%;
+  }
+}
+
+@media only screen and (max-width: 442px) {
+  .splashPage div {
+    text-align: center;
   }
 }
 
