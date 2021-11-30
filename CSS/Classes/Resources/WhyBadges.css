@@ -471,6 +471,59 @@ ul {
 }
 
 /* ----Responsive---- */
+@media screen and (max-width: 1200px) {
+  .whyBadges {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .whyBadges {
+    flex-direction: column;
+  }
+
+  .whyBadges p {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 618px) {
+  .whyBadges a {
+    font-size: 70px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 607px) {
+  .splashPage a {
+    font-size: 80px;
+  }
+}
+
+@media screen and (max-width: 486px) {
+  .splashPage div {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 507px) {
+  .whyBadges {
+    height: 500px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .whyBadges {
+    height: 520px;
+  }
+}
+
+@media only screen and (max-width: 570px) {
+  .whyBadges {
+    width: 97%;
+  }
+}
+
 @media (max-width: 767px) {
   .footer-col {
     width: 50%;
