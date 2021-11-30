@@ -475,6 +475,48 @@ ul {
 }
 
 /* ----Responsive---- */
+@media screen and (max-width: 1200px) {
+  .badgePitch1 {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .badgePitch1Video {
+    width: 50%;
+    height: 40%;
+  }
+}
+
+@media screen and (max-width: 806px) {
+  .splashPage a {
+    font-size: 80px;
+  }
+}
+
+@media only screen and (max-width: 765px) {
+  .badgePitch1 a {
+    font-size: 70px;
+  }
+}
+
+@media screen and (max-width: 645px) {
+  .splashPage div {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .badgePitch1Video {
+    width: 100%;
+    height: 50%;
+  }
+
+  .badgePitch1 {
+    height: 610px;
+  }
+}
+
 @media (max-width: 767px) {
   .footer-col {
     width: 50%;
