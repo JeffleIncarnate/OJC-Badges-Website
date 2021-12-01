@@ -268,7 +268,7 @@ header {
 .number1 {
   padding: 20px;
   text-align: center;
-  height: 700px;
+  height: auto;
   width: 60%;
   margin: 2% auto 2% auto;
 }
@@ -297,7 +297,7 @@ header {
 }
 
 .number1 img {
-  width: 50%;
+  max-width: 50%;
   border-radius: 10px;
   margin-top: 1.5%;
   box-shadow: 0px 1px 10px 0 rgb(0 0 0 / 70%), 0 6px 30px 0 rgb(0 0 0 / 19%);
@@ -324,7 +324,7 @@ header {
   width: 200px;
   transition: all 0.5s;
   cursor: pointer;
-  margin: 1.5% auto 1.5% auto;
+  margin: 20px auto 20px auto;
   box-shadow: 0px 1px 10px 0 rgb(0 0 0 / 70%), 0 6px 30px 0 rgb(0 0 0 / 19%);
 }
 
@@ -524,6 +524,36 @@ ul {
 }
 
 /* ----Responsive---- */
+@media screen and (max-width: 1200px) {
+  .number1 {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 807px) {
+  .splashPage a {
+    font-size: 77px;
+  }
+}
+
+@media screen and (max-width: 646px) {
+  .splashPage div {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 618px) {
+  .number1 a {
+    font-size: 70px;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 560px) {
+  .number1 img {
+    max-width: 80%;
+  }
+}
+
 @media (max-width: 767px) {
   .footer-col {
     width: 50%;
