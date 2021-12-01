@@ -713,6 +713,18 @@ ul {
   }
 }
 
+@media screen and (max-width: 513px) {
+  .splashPage a {
+    font-size: 80px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .splashPage div {
+    text-align: center;
+  }
+}
+
 @media screen and (max-width: 767px) {
   .footer-col {
     width: 50%;
