@@ -274,7 +274,7 @@ header {
 /* ---- Contact Form ---- */
 form {
   background: rgba(27, 31, 34, 0.8);
-  width: 60%;
+  width: 70%;
   margin: 50px auto;
   max-width: 97%;
   border-radius: 50px 10px;
@@ -375,7 +375,10 @@ form .icons a:hover {
   background: rgba(255, 255, 255, 0.075);
 }
 
-@media (max-width: 480px) {
+@media (max-width: 600px) {
+  form {
+    width: 90%;
+  }
   form .half {
     flex-direction: column;
   }
