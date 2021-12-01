@@ -466,6 +466,39 @@ ul {
 }
 
 /* ----Responsive---- */
+@media screen and (max-width: 1300px) {
+  .tipsTricks {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 879px) {
+  .tipsTricks {
+    height: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (max-width: 618px) {
+  .tipsTricks a {
+    font-size: 70px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 593px) {
+  .splashPage a {
+    font-size: 80px;
+  }
+}
+
+@media screen and (max-width: 475px) {
+  .splashPage div {
+    text-align: center;
+  }
+}
+
 @media (max-width: 767px) {
   .footer-col {
     width: 50%;
