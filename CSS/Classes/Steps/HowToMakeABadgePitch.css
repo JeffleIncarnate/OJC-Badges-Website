@@ -550,7 +550,7 @@ ul {
 
 @media screen and (max-width: 500px) {
   .number1 img {
-    max-width: 80%;
+    width: 100%;
   }
 }
 
