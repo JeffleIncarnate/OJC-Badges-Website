@@ -498,6 +498,10 @@ ul {
 }
 
 @media screen and (max-width: 442px) {
+  .splashPage a {
+    font-size: 80px;
+  }
+
   .splashPage div {
     text-align: center;
   }

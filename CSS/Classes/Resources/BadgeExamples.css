@@ -488,19 +488,19 @@ ul {
   }
 }
 
-@media screen and (max-width: 806px) {
-  .splashPage a {
-    font-size: 80px;
-  }
-}
-
 @media only screen and (max-width: 765px) {
   .badgePitch1 a {
     font-size: 70px;
   }
 }
 
-@media screen and (max-width: 645px) {
+@media screen and (max-width: 807px) {
+  .splashPage a {
+    font-size: 78px;
+  }
+}
+
+@media only screen and (max-width: 645px) {
   .splashPage div {
     text-align: center;
   }
