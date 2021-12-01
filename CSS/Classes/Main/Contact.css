@@ -354,18 +354,33 @@ form .action input {
 }
 
 form .action input[type="submit"] {
-  background: white;
-  color: black;
+  background: var(--white);
+  color: var(--grey);
+  transition: all 0.5s;
+  border: none;
+}
+
+form .action input[type="submit"]:hover {
+  background: var(--orange);
+  color: var(--grey);
 }
 
 form .icons a {
-  border: 1px solid white;
-  border-radius: 50%;
-  line-height: 36px;
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background-color: rgba(255, 255, 255, 0.2);
+  margin: 0 10px 10px 0;
   text-align: center;
-  font-weight: 600;
-  width: 38px;
-  margin-right: 10px;
+  line-height: 40px;
+  border-radius: 50%;
+  color: #ffffff;
+  transition: all 0.5s ease;
+}
+
+form .icons a:hover {
+  color: var(--orange);
+  background-color: rgba(255, 255, 255, 0.5);
 }
 
 form .half .item input:focus,
