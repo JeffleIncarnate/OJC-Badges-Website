@@ -318,7 +318,7 @@ header {
 .aboutAuthor {
   padding: 20px;
   display: flex;
-  height: 340px;
+  height: auto;
   justify-content: center;
   align-items: center;
   width: 70%;
@@ -556,6 +556,12 @@ ul {
   }
 }
 
+@media screen and (max-width: 496px) {
+  .briefIntro {
+    height: 400px;
+  }
+}
+
 @media screen and (max-width: 442px) {
   .splashPage a {
     font-size: 80px;
@@ -572,16 +578,6 @@ ul {
 
   .aboutAuthor img {
     max-width: 70%;
-  }
-
-  .aboutAuthor {
-    height: 600px;
-  }
-}
-
-@media only screen and (max-width: 380px) {
-  .aboutAuthor {
-    height: 650px;
   }
 }
 
