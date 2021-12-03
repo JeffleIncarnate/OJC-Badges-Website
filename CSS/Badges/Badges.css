@@ -1,0 +1,574 @@
+/* ----HTML---- */
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap");
+
+body,
+html {
+  height: 100%;
+  margin: 0;
+  font-family: "Raleway", sans-serif;
+  background-color: var(--white);
+  color: var(--grey);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+hr {
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+:root {
+  --white: #edf0f1;
+  --grey: #24252a;
+  --orange: #0088a9;
+}
+
+/* ----Nav Bar---- */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+  background-color: var(--grey);
+}
+
+.iconImage {
+  max-width: 50px;
+}
+
+.logo {
+  cursor: pointer;
+}
+
+.nav__links a,
+.cta,
+.overlay__content a {
+  font-weight: 500;
+  color: var(--white);
+  text-decoration: none;
+}
+
+.nav__links {
+  list-style: none;
+  display: flex;
+}
+.nav__links li {
+  padding: 0px 20px;
+}
+
+.nav__links li a {
+  transition: color 0.3s ease 0s;
+}
+
+.nav__links li a:hover {
+  color: var(--orange);
+}
+
+.sticky {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.cta {
+  padding: 9px 25px;
+  background-color: var(--orange);
+  color: var(--white);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background-color 0.3s ease 0s, color 0.3s ease 0s;
+}
+
+.cta:hover {
+  background-color: var(--orange);
+  color: var(--grey);
+}
+
+/* ----DropDown---- */
+.dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 0 20px;
+  font-weight: 500;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+  transition: color 0.3s ease 0s;
+}
+
+.dropbtn:hover {
+  color: var(--orange);
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: var(--grey);
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  margin-left: 13%;
+  float: none;
+  color: var(--white);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  transition: color 0.5s ease 0s;
+}
+
+.dropdown-content a:hover {
+  color: var(--orange);
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* ----Mobile Nav---- */
+.menu {
+  display: none;
+}
+
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  background-color: var(--grey);
+  overflow-x: hidden;
+  transition: width 0.5s ease 0s;
+}
+
+.overlay--active {
+  width: 100%;
+}
+
+.overlay__content {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 50px;
+}
+
+.overlay a {
+  padding: 15px;
+  font-size: 36px;
+  display: block;
+  transition: color 0.3s ease 0s;
+}
+
+.overlay a:hover,
+.overlay a:focus {
+  color: var(--orange);
+}
+.overlay .close {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+  color: var(--white);
+}
+
+.dropdown-btn {
+  padding: 15px;
+  text-decoration: none;
+  font-size: 36px;
+  color: var(--white);
+  display: block;
+  border: none;
+  background: none;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+  transition: all 0.3s ease 0s;
+  display: flex;
+}
+
+.dropdown-btn:hover {
+  color: var(--orange);
+}
+
+.active {
+  color: var(--white);
+}
+
+.dropdown-container {
+  display: none;
+}
+
+.dropdown-container a {
+  font-size: 20px;
+  text-align: left;
+  margin-left: 50px;
+}
+
+/* ----Splash Page---- */
+.splashPage {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)),
+    url("../../Images/Backgrounds/eberhard-grossgasteiger-HlJZ-xm3KCI-unsplash.jpg");
+  height: 70%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  margin: 1%;
+  box-shadow: 0px 1px 10px 0 rgb(0 0 0 / 70%), 0 6px 30px 0 rgb(0 0 0 / 19%);
+  animation: fadeIn 5s;
+  -webkit-animation: fadeIn 5s;
+  -moz-animation: fadeIn 5s;
+  -o-animation: fadeIn 5s;
+  -ms-animation: fadeIn 5s;
+}
+
+.splashPage a {
+  font-size: 100px;
+  color: var(--white);
+  background: none;
+  font-weight: 500;
+  cursor: text;
+  transition: color 0.5s ease 0s;
+}
+
+.splashPage a:hover {
+  color: var(--orange);
+}
+
+.splashPage p {
+  color: #edf0f1;
+  background: none;
+  font-weight: 500;
+  animation: comeUp 6s;
+  -webkit-animation: comeUp 5s;
+  -moz-animation: comeUp 5s;
+  -o-animation: comeUp 5s;
+  -ms-animation: comeUp 5s;
+}
+
+/* ----Brief Intro---- */
+.whatIsBadge {
+  padding: 20px;
+  text-align: center;
+  height: auto;
+  width: 60%;
+  margin: 2% auto 2% auto;
+}
+
+.whatIsBadge a {
+  font-size: 80px;
+  font-weight: 600;
+  cursor: text;
+  transition: color 0.5s ease 0s;
+  color: var(--grey);
+  border-radius: 10px;
+  padding: 2%;
+  padding: 1px;
+}
+
+.whatIsBadge a:hover {
+  color: var(--orange);
+}
+
+.whatIsBadge p {
+  font-size: 20px;
+  margin-top: 3%;
+  background: none;
+  font-weight: 400px;
+  text-align: center;
+}
+
+/* ----Evidence you can Use---- */
+.possibleEvidence {
+  padding: 20px;
+  text-align: center;
+  height: auto;
+  width: 60%;
+  margin: 2% auto 2% auto;
+}
+
+.possibleEvidence a {
+  font-size: 80px;
+  font-weight: 600;
+  cursor: text;
+  transition: color 0.5s ease 0s;
+  color: var(--grey);
+  border-radius: 10px;
+  padding: 2%;
+  padding: 1px;
+}
+
+.possibleEvidence a:hover {
+  color: var(--orange);
+}
+
+.possibleEvidence p {
+  font-size: 20px;
+  margin-top: 3%;
+  background: none;
+  font-weight: 400px;
+  text-align: center;
+}
+
+.possibleEvidence ol {
+  text-align: center;
+  list-style-position: inside;
+}
+
+/* ----Animations---- */
+/* -- Come Up -- */
+@keyframes comeUp {
+  0% {
+    margin-top: 100px;
+  }
+  100% {
+    margin-top: 0px;
+  }
+}
+
+@-moz-keyframes comeUp {
+  0% {
+    margin-top: 100px;
+  }
+  100% {
+    margin-top: 0px;
+  }
+}
+
+@-webkit-keyframes comeUp {
+  0% {
+    margin-top: 100px;
+  }
+  100% {
+    margin-top: 0px;
+  }
+}
+
+@-o-keyframes comeUp {
+  0% {
+    margin-top: 100px;
+  }
+  100% {
+    margin-top: 0px;
+  }
+}
+
+@-ms-keyframes comeUp {
+  0% {
+    margin-top: 100px;
+  }
+  100% {
+    margin-top: 0px;
+  }
+}
+
+/* -- Fade In -- */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* ----Footer---- */
+.container {
+  max-width: 1170px;
+  margin: auto;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+ul {
+  list-style: none;
+}
+.footer {
+  background-color: var(--grey);
+  padding: 70px 0;
+}
+.footer-col {
+  width: 25%;
+  padding: 0 15px;
+}
+.footer-col h4 {
+  font-size: 18px;
+  color: #ffffff;
+  text-transform: capitalize;
+  margin-bottom: 35px;
+  font-weight: 500;
+  position: relative;
+}
+.footer-col h4::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  background-color: var(--orange);
+  height: 2px;
+  box-sizing: border-box;
+  width: 50px;
+}
+.footer-col ul li:not(:last-child) {
+  margin-bottom: 10px;
+}
+.footer-col ul li a {
+  font-size: 16px;
+  text-transform: capitalize;
+  text-decoration: none;
+  font-weight: 300;
+  color: #bbbbbb;
+  display: block;
+  transition: all 0.3s ease;
+}
+.footer-col ul li a:hover {
+  color: var(--orange);
+  padding-left: 8px;
+}
+.footer-col .social-links a {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background-color: rgba(255, 255, 255, 0.2);
+  margin: 0 10px 10px 0;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  color: #ffffff;
+  transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover {
+  color: #24262b;
+  background-color: var(--orange);
+}
+
+/* ----Responsive---- */
+@media screen and (max-width: 1200px) {
+  .badgePitch1 {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .badgePitch1Video {
+    width: 50%;
+    height: 40%;
+  }
+}
+
+@media only screen and (max-width: 765px) {
+  .badgePitch1 a {
+    font-size: 70px;
+  }
+}
+
+@media screen and (max-width: 807px) {
+  .splashPage a {
+    font-size: 78px;
+  }
+}
+
+@media only screen and (max-width: 645px) {
+  .splashPage div {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .badgePitch1Video {
+    width: 100%;
+    height: 50%;
+  }
+
+  .badgePitch1 {
+    height: 610px;
+  }
+}
+
+@media (max-width: 767px) {
+  .footer-col {
+    width: 50%;
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 574px) {
+  .footer-col {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .nav__links,
+  .cta {
+    display: none;
+  }
+  .menu {
+    display: initial;
+  }
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {
+    font-size: 20px;
+  }
+  .overlay .close {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}
