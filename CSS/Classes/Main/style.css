@@ -275,7 +275,7 @@ header {
 .briefIntro {
   padding: 20px;
   text-align: center;
-  height: 270px;
+  height: auto;
   width: 60%;
   margin: 2% auto 2% auto;
 }
@@ -308,7 +308,7 @@ header {
 .whyBadges {
   padding: 20px;
   display: flex;
-  height: 340px;
+  height: auto;
   justify-content: center;
   align-items: center;
   width: 70%;
@@ -340,7 +340,7 @@ header {
 .pitchBadge {
   padding: 20px;
   text-align: center;
-  height: 340px;
+  height: auto;
   width: 60%;
   margin: 2% auto 2% auto;
 }
@@ -368,7 +368,7 @@ header {
 .levels {
   padding: 20px;
   display: flex;
-  height: 340px;
+  height: auto;
   justify-content: center;
   align-items: center;
   width: 70%;
@@ -588,21 +588,12 @@ ul {
 }
 
 @media screen and (max-width: 800px) {
-  .briefIntro {
-    height: 300px;
-  }
-
   .whyBadges {
     flex-direction: column;
-    height: 370px;
   }
 
   .whyBadges p {
     text-align: center;
-  }
-
-  .pitchBadge {
-    height: 370px;
   }
 
   .levels {
@@ -611,7 +602,6 @@ ul {
 
   .levels p {
     text-align: center;
-    height: 500px;
   }
 }
 
@@ -621,16 +611,6 @@ ul {
   .pitchBadge a,
   .levels a {
     font-size: 70px;
-  }
-}
-
-@media screen and (max-width: 700px) {
-  .pitchBadge {
-    height: 500px;
-  }
-
-  .levels {
-    height: 430px;
   }
 }
 
@@ -644,44 +624,8 @@ ul {
 }
 
 @media screen and (max-width: 550px) {
-  .briefIntro {
-    height: 370px;
-  }
-
-  .whyBadges {
-    height: 440px;
-  }
-
   .whyBadges a {
     text-align: center;
-  }
-
-  .pitchBadge {
-    height: 550px;
-  }
-
-  .levels {
-    height: 550px;
-  }
-}
-
-@media screen and (max-width: 500px) {
-  .pitchBadge {
-    height: 590px;
-  }
-}
-
-@media screen and (max-width: 437px) {
-  .briefIntro {
-    height: 500px;
-  }
-
-  .whyBadges {
-    height: 500px;
-  }
-
-  .pitchBadge {
-    height: 650px;
   }
 }
 
@@ -692,22 +636,6 @@ ul {
 }
 
 @media screen and (max-width: 379px) {
-  .briefIntro {
-    height: 550px;
-  }
-
-  .whyBadges {
-    height: 550px;
-  }
-
-  .pitchBadge {
-    height: 700px;
-  }
-
-  .levels {
-    height: 670px;
-  }
-
   .levels a {
     text-align: center;
   }
