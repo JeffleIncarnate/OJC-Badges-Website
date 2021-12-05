@@ -275,7 +275,7 @@ header {
 .fullBadges {
   padding: 20px;
   text-align: center;
-  height: 600px;
+  height: auto;
   width: 70%;
   margin: 2% auto 2% auto;
 }
@@ -513,10 +513,6 @@ ul {
   #myUL {
     grid-template-columns: repeat(2, 2fr);
   }
-
-  .fullBadges {
-    height: 720px;
-  }
 }
 
 @media only screen and (max-width: 765px) {
@@ -534,10 +530,6 @@ ul {
 @media only screen and (max-width: 503px) {
   #myUL {
     grid-template-columns: repeat(1, 2fr);
-  }
-
-  .fullBadges {
-    height: 1300px;
   }
 }
 

@@ -274,7 +274,7 @@ header {
 /* ----Brief Intro---- */
 .tipsTricks {
   padding: 20px;
-  height: 370px;
+  height: auto;
   width: 60%;
   margin: 2% auto 2% auto;
   text-align: center;
@@ -481,7 +481,6 @@ ul {
 
 @media screen and (max-width: 879px) {
   .tipsTricks {
-    height: auto;
     margin-top: 30px;
     margin-bottom: 30px;
   }

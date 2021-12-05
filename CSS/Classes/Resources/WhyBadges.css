@@ -306,7 +306,7 @@ header {
 .whyBadges {
   padding: 20px;
   display: flex;
-  height: 340px;
+  height: auto;
   justify-content: center;
   align-items: center;
   width: 70%;
@@ -510,18 +510,6 @@ ul {
 @media screen and (max-width: 486px) {
   .splashPage div {
     text-align: center;
-  }
-}
-
-@media screen and (max-width: 507px) {
-  .whyBadges {
-    height: 500px;
-  }
-}
-
-@media screen and (max-width: 375px) {
-  .whyBadges {
-    height: 520px;
   }
 }
 

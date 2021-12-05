@@ -275,7 +275,7 @@ header {
 .badgePitch1 {
   padding: 20px;
   text-align: center;
-  height: 550px;
+  height: auto;
   width: 60%;
   margin: 2% auto 2% auto;
 }
@@ -517,10 +517,6 @@ ul {
   .badgePitch1Video {
     width: 100%;
     height: 50%;
-  }
-
-  .badgePitch1 {
-    height: 610px;
   }
 }
 
